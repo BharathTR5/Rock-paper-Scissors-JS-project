@@ -1,0 +1,37 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+}
+h2{
+  font-size: 40px;
+}
+.options{
+  background-color: transparent;
+  font-size: 80px;
+  border-radius: 100px;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+.options:hover{
+  padding: 12px;
+}
+.js-moves, .js-result{
+  font-size: 30px;
+}
+.js-score{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.reset-button{
+  font-weight: bolder;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.reset-button:hover{
+  font-size: larger;
+}
